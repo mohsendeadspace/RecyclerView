@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="#c1c1c1"
+  android:padding="5dp">
+
+
+  <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#738c78"
+    android:padding="5dp"
+    android:layout_marginTop="5dp">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dp">
+
+      <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/img_food"/>
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="food"
+        android:id="@+id/txt_food"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/img_food"
+        android:layout_marginLeft="8dp"
+        android:textSize="20dp"
+        tools:ignore="UnknownId"/>
+
+
+    </RelativeLayout>
+
+  </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>
